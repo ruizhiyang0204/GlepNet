@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://hychaowang.github.io/SleepKD/ -->
+<html lang="en"><!-- === Header Starts === --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Teacher Assistant-Based Knowledge Distillation Extracting Multi-level Features on Single Channel Sleep EEG</title>
+    <link href="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/bootstrap.min.css" rel="stylesheet">
+    <link href="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/font.css" rel="stylesheet" type="text/css">
+    <link href="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/style.css" rel="stylesheet" type="text/css">
+    <script src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/jquery.min.js"></script>
+    <script type="text/javascript" src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/corpus.js"></script>
+
+<script>
+    var lang_flag = 1;
+
+
+</script></head>
+<!-- === Header Ends === -->
+
+
+
+<body>
+
+<!-- === Home Section Starts === -->
+<div class="section">
+    <!-- === Title Starts === -->
+    <div class="header">
+        <!--        <div class="logo">-->
+        <!--            <a href="https://decisionforce.github.io/" target="_blank">-->
+        <!--                <img src="images/deciforce.png">-->
+        <!--            </a>-->
+        <!--        </div>-->
+        <!--        <div style="padding-top: 30pt; margin: 0 50pt;" class="title" id="lang">-->
+        <!--            Safe Driving via Expert Guided Policy Optimization-->
+        <!--        </div>-->
+
+        <table>
+            <tbody><tr>
+                <td>
+<!-- 
+                    <div class="logo"
+                         style="
+                         width: 100pt;
+                         vertical-align: text-top;
+                         text-align: center;
+                         ">
+                        <a href="https://decisionforce.github.io/" target="_blank">
+                            <img src="images/deciforce.png">
+                        </a>
+                    </div>-->
+
+                </td>
+                <td>
+                    <div style="padding-top: 10pt;" class="title" id="lang">
+                        Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection
+                    </div>
+
+                </td>
+                <td>
+<!--
+                    <div class="logo"
+                         style="
+                         width: 100pt;
+                         padding-top: 10pt;
+                         vertical-align: center;
+                         text-align: center;
+                         ">
+                        <a href="https://github.com/decisionforce/metadrive" target="_blank">
+                            <img style=" width: 120pt;" src="images/metadrive.png">
+                        </a>
+                    </div>
+-->
+                </td>
+            </tr>
+        </tbody></table>
+
+
+    </div>
+    <!-- === Title Ends === -->
+    <div class="author">
+        <p style="text-align:center">IEEE Transactions on Artificial Intelligence (TAI)</p>
+        <a href="https://scholar.google.com/citations?user=EoiH18QAAAAJ&hl=en">Xinliang Zhou</a><sup>1</sup>,&nbsp;
+        <a href="https://ieeexplore.ieee.org/author/37089932465">Chenyu Liu</a><sup>1</sup>,
+        <a href="https://www.researchgate.net/profile/Ruizhi-Yang-12" target="_blank">Ruizhi Yang</a><sup>2</sup>,&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/liangwei-zhang-112370196/" target="_blank">Liangwei Zhang</a><sup>3</sup>,&nbsp;
+        <a href="https://ieeexplore.ieee.org/author/37086927518" target="_blank">Liming Zhai</a><sup>4</sup>,
+        <a href="https://ziyujia.github.io/" target="_blank">Ziyu Jia</a><sup>4</sup>,
+        <a href="https://personal.ntu.edu.sg/yangliu/">Yang Liu</a><sup>1</sup>*&nbsp;
+    </div>
+
+    <div class="institution" style="font-size: 11pt;">
+        <div>
+            <sup>1</sup>School of Computer Science and Engineering, Nanyang Technological University, Singapore,
+
+            <!--            <sup>2</sup>SenseTime Research <br>-->
+            <sup>2</sup>School of Electronic Engineering and Computer Science, Queen Mary Univeristy of London, London, UK,
+            <sup>3</sup>School of Computer Science, Carnegie Mellon University, Pittsburgh, The United States,
+            <sup>4</sup>School of Computer Science, Central China Normal University, Wuhan, China,
+            <sup>5</sup>Brainnetome Center, Institute of Automation, Chinese Academy of Sciences, Beijing, China<br>
+
+        </div>
+    </div>
+    <table border="0" align="center">
+        <tbody><tr>
+            <td align="center" style="padding: 0pt 0 15pt 0">
+                <a class="bar" href="https://github.com/rzyang0204/GlepNet"><b>Code</b></a> |
+                <!--                <a class="bar" href="images/egpo_poster.png"><b>Poster</b></a> |-->
+                <a class="bar" href="https://www.bilibili.com/"><b>Video</b></a> |
+                <a class="bar" href="https://www.bilibili.com/"><b>Paper</b></a> |
+                <a class="bar" href="https://www.bilibili.com/"><b>Poster</b></a>
+
+
+
+            </td>
+        </tr>
+    </tbody></table>
+
+</div>
+<!-- === Home Section Ends === -->
+
+<!--<div class="section">-->
+<!--    &lt;!&ndash;    <div class="title" id="lang">Demonstrative Videos</div>&ndash;&gt;-->
+<!--    <div align="center">-->
+<!--        <table width="90%" style="margin: -20pt -5pt; text-align: center;">-->
+<!--            <tr>-->
+<!--                <td>-->
+<!--                    <video style="display:block; width:98%; height:auto; "-->
+<!--                           autoplay="autoplay" muted loop="loop" playsinline>-->
+<!--                        <source src="https://raw.githubusercontent.com/decisionforce/archive/master/EGPO/egpo_vs_ppo.mp4"-->
+<!--                                type="video/mp4"/>-->
+<!--                    </video>-->
+<!--                    <div style="top: -10%;">EGPO-trained agent exhibits safer driving behaviors than the PPO agent and obtains much lower cost.</div><br>-->
+<!--                </td>-->
+<!--            </tr>-->
+<!--            &lt;!&ndash;        </table>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <br>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <br>&ndash;&gt;-->
+<!--            &lt;!&ndash;        <table width="95%" style="margin: 0 0; text-align: center;">&ndash;&gt;-->
+<!--            &lt;!&ndash;            <tr>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <td>&ndash;&gt;-->
+<!--            &lt;!&ndash;                    <video style="display:block; width:98%; height:auto;"&ndash;&gt;-->
+<!--            &lt;!&ndash;                           autoplay="autoplay" controls muted loop="loop">&ndash;&gt;-->
+<!--            &lt;!&ndash;                        <source src="https://raw.githubusercontent.com/decisionforce/archive/master/EGPO/egpo_showtime.mp4"&ndash;&gt;-->
+<!--            &lt;!&ndash;                                type="video/mp4"/>&ndash;&gt;-->
+<!--            &lt;!&ndash;                    </video>&ndash;&gt;-->
+<!--            &lt;!&ndash;                </td>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </tr>&ndash;&gt;-->
+<!--            &lt;!&ndash;            <tr>&ndash;&gt;-->
+<!--            &lt;!&ndash;                <td>&ndash;&gt;-->
+<!--            &lt;!&ndash;                    The behaviors of EGPO-trained agents.&ndash;&gt;-->
+<!--            &lt;!&ndash;                </td>&ndash;&gt;-->
+<!--            &lt;!&ndash;            </tr>&ndash;&gt;-->
+<!--        </table>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<!-- === Overview Section Starts === -->
+<div class="section">
+    <div class="title" id="lang">Overview framwork</div>
+    <div class="body">
+        <div class="teaser">
+            <img src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/Architecture.png">
+            <div class="text">
+                <br>
+                Fig. 1 Framework </div>
+        </div>
+        <div class="text">
+
+            <p>
+                Global-Local Neural Epilepsy Detection Network Architecture is shown in Fig. 1. GlepNet incorporates a linear layer for feature embedding,
+                followed by specialized encoder blocks that enhance the detection of global-local epilepsy patterns.
+                Each encoder block includes multi-head self-attention and convolution modules, positioned between two macaroon-like,
+                position-wise feed-forward layers with a half-step residual connection designed to capture interleaved EEG epilepsy features effectively.
+                A normalization layer addresses the gradient vanishing issue, while the final linear and sigmoid layers are dedicated to accurate epilepsy detection.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- === Result Section Starts === -->
+<div class="section">
+    <div class="title" id="lang">Experiment Result</div>
+    <div class="body">
+                
+        <div class="teaser">
+            <div class="text">
+        Table. 1 Comparison results.
+                 <br>
+            </div>
+        <img src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/baseline.png">
+        </div>
+        <div class="text">
+            In Table 1, we evaluate the performance and robustness of our proposed GlepNet alongside six baseline models across four datasets.
+            Overall, GlepNet consistently outperforms the baseline models on these datasets,
+            demonstrating significant advantages in terms of accuracy and robustness.
+        </div>
+
+        <div class="teaser">
+                     <div class="text">
+
+                Table. 2 Comparison results.
+                          <br>
+                     </div>
+            <img src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/ablation.png">
+        </div>
+        <div class="text">
+            In Table 2, ablation study (Accuracy in \%) is examined on four Epilepsy Datasets.
+            "Conv-" means removing the convolution modules from the proposed GlepNet model,
+            whereas "MHSA-" means eliminating Multi-Head Self-Attention modules from GlepNet.
+            The best and highest results are in <b>bold</b>.
+        </div>
+
+        <div class="teaser">
+            <div class="text">
+
+                Fig. 2 Interpretable visualization.
+                <br>
+            </div>
+            <img src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/Grad-CAM.png">
+        </div>
+        <div class="text">
+            In Fig. 2 and Fig. 3, to investigate and analysis the features learned by our model,
+            we conduct our experiment on the dataset of EEG Epilepsy Datasets from NSC via Gradient-weighted Class Activation Mapping (Grad-CAM).
+        </div>
+        <div class="teaser">
+            <div class="text">
+
+                Fig. 3 Interpretable visualization.
+                <br>
+            </div>
+            <img src="Learning%20Robust%20Global-Local%20Representation%20from%20EEG%20for%20Neural%20Epilepsy%20Detection/ablation%20gradcam.png">
+        </div>
+
+
+        </div>
+    </div>
+
+<!-- === Result Section Ends === -->
+
+<div class="section">
+    <div class="title" id="video">Talk</div>
+    <video width="900" height="506" controls="">
+        <source src="IJCAI_Video_srt.mp4" type="video/mp4">
+      </video>
+</div>
+
+<!-- === Reference Section Starts === -->
+<div class="section">
+    <div class="bibtex">
+        <div class="text">Reference</div>
+    </div>
+
+    <!--    If you find this work useful in your project, please consider to cite it through:-->
+    <pre>        @inproceedings{DBLP:conf/ijcai/LiangLWJ23,
+            author       = {...},
+            title        = {...},
+            booktitle    = {...},
+            pages        = {...},
+            year         = {...},
+            url          = {...},
+            doi          = {...},
+            timestamp    = {...},
+            biburl       = {https://dblp.org/rec/conf/ijcai/LiangLWJ23.bib},
+            bibsource    = {dblp computer science bibliography, https://dblp.org}
+          }
+    </pre>
+    <!-- Adjust the frame size based on the demo (Every project differs). -->
+</div>
+
+
+
+<deepl-input-controller><template shadowrootmode="open"><link rel="stylesheet" href="chrome-extension://cofdbpoegempjloogbagkncekinflcnj/build/content.css"><div dir="ltr"><div class="dl-input-translation-container svelte-95aucy"><div></div></div></div></template></deepl-input-controller></body></html>
