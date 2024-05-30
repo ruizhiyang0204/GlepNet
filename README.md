@@ -7,7 +7,7 @@ This work has been accepted for publication in [IEEE Transactions on Artificial 
 
 [//]: # (![GlepNet Architecture]&#40;docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png&#41;)
 <p align = "center">    
-<img  src="docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png" width="500" />
+<img  src="docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png" width="600" />
 </p>
 
 Epilepsy is a life-threatening and challenging neurological disorder, and applying electroencephalogram (EEG) is a commonly used clinical approach 
