@@ -4,7 +4,12 @@
 This work has been accepted for publication in [IEEE Transactions on Artificial Intelligence (TAI).](https://www.researchgate.net/publication/379323759_Learning_Robust_Global-Local_Representation_from_EEG_for_Neural_Epilepsy_Detection)
 
 ## Abstract
-![GlepNet Architecture](docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png)
+
+[//]: # (![GlepNet Architecture]&#40;docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png&#41;)
+<p align = "center">    
+<img  src="docs/Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection/Architecture.png" width="500" />
+</p>
+
 Epilepsy is a life-threatening and challenging neurological disorder, and applying electroencephalogram (EEG) is a commonly used clinical approach 
 for its detection. Neuropsychological research indicates that epilepsy seizure is highly associated with distinct ranges of temporal EEG patterns. 
 Although previous attempts to automatically detect epilepsy have achieved high classification performance, one crucial challenge still remains: 
