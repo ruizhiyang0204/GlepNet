@@ -1,7 +1,7 @@
 # [GlepNet](https://ruizhiyang0204.github.io/GlepNet/)
 ### Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection
 #### *by: Xinliang Zhou,  Chenyu Liu, Ruizhi Yang,   Liangwei Zhang,  Liming Zhai, Ziyu Jia, and Yang Liu*
-This work has been accepted for publication in [IEEE Transactions on Artificial Intelligence (TAI).](https://www.researchgate.net/publication/379323759_Learning_Robust_Global-Local_Representation_from_EEG_for_Neural_Epilepsy_Detection)
+This work has been accepted for publication in [IEEE Transactions on Artificial Intelligence (TAI).](https://ieeexplore.ieee.org/abstract/document/10541111)
 
 ## Abstract
 
