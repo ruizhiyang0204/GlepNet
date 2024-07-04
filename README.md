@@ -28,14 +28,12 @@ In processing... We will release and update soon.
 ## Citation
 
 ```
-@article{emadeldeen_attnSleep,
-  author={...},
-  journal={...}, 
-  title={...}, 
-  year={...},
-  volume={...},
-  pages={...},
-  doi={...}
+@article{zhou2024learning,
+  title={Learning Robust Global-Local Representation from EEG for Neural Epilepsy Detection},
+  author={Zhou, Xinliang and Liu, Chenyu and Yang, Ruizhi and Zhang, Liangwei and Zhai, Liming and Jia, Ziyu and Liu, Yang},
+  journal={IEEE Transactions on Artificial Intelligence},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
