@@ -21,8 +21,75 @@ EEG segments containing epileptiform abnormalities like spike-wave complexes. Sp
 the gradients from the encoder blocks to highlight the epilepsy seizure-related parts. Extensive experiments show the superiority of the GlepNet over 
 state-of-the-art methods on multiple EEG epilepsy datasets.
 
-## Requirmenets
-In processing... We will release and update soon.
+---
+
+## 🚀 Quick Start (Google Colab)
+
+Colab [notebook](https://colab.research.google.com/drive/1HfiUz3VRv_2cuIiPZomr90FV_jeTtp4k?usp=sharing) (make a copy first):
+
+### Steps
+1. Open the notebook link above.
+2. Click **File → Save a copy in Drive** to make your own editable copy.
+3. (Optional) Go to **Runtime → Change runtime type → Hardware accelerator** and choose **GPU**.
+4. Run the cells from top to bottom to install dependencies and start training/evaluation.
+
+---
+
+## 1. Environment
+
+- **Python**: 3.12.12  
+- **CUDA**: 12.1 (PyTorch CUDA wheels via `cu121`)
+- **Pinned dependencies**:
+  - torch==2.2.0
+  - torchvision==0.17.0
+  - torchaudio==2.2.0
+  - numpy==1.26.4
+  - scipy==1.16.3
+  - pandas==2.2.2
+  - matplotlib==3.10.0
+  - tqdm==4.67.1
+  - PyYAML==6.0.3
+  - scikit-learn==1.6.1
+
+---
+
+## 2. Installation
+
+> Recommended: create a fresh environment (venv/conda) and then install dependencies.
+
+### 2.1 Create environment（using conda）
+
+```
+conda create -n <env_name> python=3.12.12 -y
+conda activate <env_name>
+```
+
+### 2.2 Install dependencies (exact)
+
+Run the following commands in order:
+```
+pip install torch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
+pip install numpy==1.26.4
+pip install scipy==1.16.3
+pip install pandas==2.2.2
+pip install matplotlib==3.10.0
+pip install tqdm==4.67.1
+pip install pyyaml==6.0.3
+pip install scikit-learn==1.6.1
+```
+
+---
+
+## 3. Quick Start (Local)
+
+> Replace script names and arguments based on your project structure.
+
+### 3.1 Train
+
+```
+python train.py
+```
+---
 
 
 ## Citation
