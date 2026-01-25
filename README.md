@@ -24,6 +24,10 @@ state-of-the-art methods on multiple EEG epilepsy datasets.
 ---
 
 ## 🚀 Quick Start (Google Colab)
+⭐ If you find this project useful, please consider giving it a star — it really helps us!<br>
+⭐ 如果你觉得这个项目对你有帮助，欢迎点个 star 支持一下——这对我们非常重要！<br>
+⭐ Si este proyecto te resulta útil, por favor déjanos una estrella. ¡Nos ayuda muchísimo!
+
 
 Colab [notebook](https://colab.research.google.com/drive/1HfiUz3VRv_2cuIiPZomr90FV_jeTtp4k?usp=sharing) (make a copy first):
 
@@ -52,6 +56,7 @@ Colab [notebook](https://colab.research.google.com/drive/1HfiUz3VRv_2cuIiPZomr90
   - scikit-learn==1.6.1
 
 ---
+If not figured out how to config the environment, click [here](https://www.bilibili.com/video/BV1bQ4y1n7sn/?share_source=copy_web&vd_source=7a2698aaea7e6b4678a416462d47d63d).
 
 ## 2. Installation
 
@@ -60,9 +65,10 @@ Colab [notebook](https://colab.research.google.com/drive/1HfiUz3VRv_2cuIiPZomr90
 ### 2.1 Create environment（using conda）
 
 ```
-conda create -n <env_name> python=3.12.12 -y
-conda activate <env_name>
+conda create -n GlepNet python=3.12.12 -y
+conda activate GlepNet
 ```
+If not installed conda, click [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#).
 
 ### 2.2 Install dependencies (exact)
 
@@ -84,11 +90,20 @@ pip install scikit-learn==1.6.1
 
 > Replace script names and arguments based on your project structure.
 
-### 3.1 Train
+### 3.1 Clone the repository
+
+```
+git clone https://github.com/ruizhiyang0204/GlepNet.git
+cd <YOUR_REPO_NAME>
+```
+Learn to use git clone in 30 mins, click [here](https://www.bilibili.com/video/BV1Hkr7YYEh8/?share_source=copy_web&vd_source=7a2698aaea7e6b4678a416462d47d63d).
+
+### 3.2 Train
 
 ```
 python train.py
 ```
+
 ---
 
 
